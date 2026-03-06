@@ -1,16 +1,48 @@
-# React + Vite
+# Weather Card ☀️🌧
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Міні-застосунок (SPA) для перегляду поточної погоди в обраному місті.
 
-Currently, two official plugins are available:
+Застосунок дозволяє знайти місто та отримати актуальну інформацію про погоду: температуру, опис погодних умов, іконку погоди, а також побачити місто на карті.  
+Також доступний короткий прогноз погоди та визначення поточного місцезнаходження користувача.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://romanvikulov.github.io/weather_app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 GitHub Repository
+
+https://github.com/RomanVikulov/weather_app
+
+---
+
+## ✨ Функціонал
+
+- 🔎 Пошук міста
+- 🌤 Отримання поточної погоди
+- 🌡 Відображення температури
+- ⬆️ Максимальна та ⬇️ мінімальна температура
+- 🌧 Іконка та опис погодних умов
+- 📍 Визначення поточної геолокації
+- 🗺 Відображення міста на карті
+- 📅 Короткий прогноз на кілька днів
+- ⚠️ Обробка помилок (якщо місто не знайдено)
+- ⏳ Індикатор завантаження даних
+
+---
+
+## ⚙️ Технології
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- Fetch API
+- OpenWeather API
+- Leaflet (карта)
+- Geolocation API
+
+---
